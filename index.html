@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Memory Game!</h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="index.html" class="btn btn-info">Restart Game</a>
+        </div>
+        <div class="col-sm-4">
+          <h6>Best Guess Score: <span id="best-score"></span></h6>
+        </div>
+        <div class="col-sm-4">
+          <h6>Current Guess Score: <span id="current-score"></span></h6>
+        </div>
+      </div>
+      <div id="game">
+        <div class="row">
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/questionmark.jpeg" />
+                </div>
+                <div class="flip-card-back">
+                  <img />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="end">
+      <h1>You win!</h1>
+      <h4 id="final-score"></h4>
+      <a href="index.html" class="btn btn-info">Play again?</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
